@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'/>
+				<link rel="stylesheet" type="text/css" href="Font-Awesome-4.7/css/font-awesome.min.css"/>
+				<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css"/>
+				<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap-grid.min.css"/>
+				<link rel="stylesheet" type="text/css" href="css/bootsnav.css" />
+				<link rel="stylesheet" type="text/css" href="css/MemberMain.css" />
+				<title>BTC - Herbalife Indonesia</title>
+				<link rel="stylesheet" type="text/css" href="datatables/datatables.min.css"/>
+				<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+				<script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+				<script type="text/javascript" src="datatables/datatables.min.js"></script>
+				<script type="text/javascript" src="dataTables/responsive-2.2.2/js/dataTables.responsive.min.js" ></script>
+				<script type="text/javascript" src="dataTables/Buttons-1.5.4/js/dataTables.buttons.min.js" ></script>
+				<style>
+					<style>
+				.dataTables_filter input { width: 100px }
+					</style>		
+				</head>
+				<body class="cntnr-landscape">			
+					<div class="container">
+						<div>
+							<nav class="navbar navbar-success bootsnav">
+								<div class="container-fluid">      
+									<!-- Start Header Navigation -->
+									<div class="navbar-header">
+										<a class="navbar-brand" href="#brand"><img class="img-responsive" src="images/herbalife.jpg" class="logo" alt="Home.html"></img></a>
+									</div>
+									<div class="navbar" id="navbar-menu">
+										<div class="attr-nav" id="fontSmall">
+											<ul>
+												<li><a href="#">Welcome, User <i class="fa fa-user"></i></a></li>
+											</ul>
+										</div>      
+									</div>
+
+								</div>   
+							</nav>
+						</div>
+						<section class="col-md-12 content" id="home">
+							<div class="col-lg-12 col-md-12 col-sm-12 content-item content-item-1 tm-white-translucent-bg">	
+								<div id="content" class="container-fluid">
+									<table id="example" class="table responsive table-striped table-bordered" style="width:100%">
+										<thead>
+											<tr>
+												<th>Name</th>
+												<th>Area</th>
+												<th>Progress</th>
+												<th>Point</th>
+												<th>Detail</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>MR. XXXXX</td>
+												<td>Jatim</td>
+												<td>3rd Weeks</td>
+												<td>90</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MRS. XXXXX</td>
+												<td>Jatim</td>
+												<td>1rd Weeks</td>
+												<td>70</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MR. YYYYY</td>
+												<td>DIY Yogyakarta</td>
+												<td>3rd Weeks</td>
+												<td>90</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MRS. YYYYY</td>
+												<td>DKI Jakarta</td>
+												<td>1rd Weeks</td>
+												<td>70</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MR. XXXYYY</td>
+												<td>Jatim</td>
+												<td>3rd Weeks</td>
+												<td>90</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MRS. XXXYYY</td>
+												<td>Jatim</td>
+												<td>1rd Weeks</td>
+												<td>70</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MR. YYNNY</td>
+												<td>DIY Yogyakarta</td>
+												<td>3rd Weeks</td>
+												<td>90</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MRS. YYMMY</td>
+												<td>DKI Jakarta</td>
+												<td>1rd Weeks</td>
+												<td>70</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MR. XXXYYY</td>
+												<td>Jatim</td>
+												<td>3rd Weeks</td>
+												<td>90</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MRS. XXXYYY</td>
+												<td>Jatim</td>
+												<td>1rd Weeks</td>
+												<td>70</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MR. YYNNY</td>
+												<td>DIY Yogyakarta</td>
+												<td>3rd Weeks</td>
+												<td>90</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MRS. YYMMY</td>
+												<td>DKI Jakarta</td>
+												<td>1rd Weeks</td>
+												<td>70</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MR. XXXYYY</td>
+												<td>Jatim</td>
+												<td>3rd Weeks</td>
+												<td>90</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MRS. XXXYYY</td>
+												<td>Jatim</td>
+												<td>1rd Weeks</td>
+												<td>70</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MR. YYNNY</td>
+												<td>DIY Yogyakarta</td>
+												<td>3rd Weeks</td>
+												<td>90</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+											<tr>
+												<td>MRS. YYMMY</td>
+												<td>DKI Jakarta</td>
+												<td>1rd Weeks</td>
+												<td>70</td>
+												<td><button id="details">Detail</button></td>
+											</tr>
+										</tbody>
+									</table>
+									
+								</div>
+							</div>
+						</section>
+					</div>
+					<div class="text-center footer">
+						<div class="container">
+								Copyright &copy; <span class="tm-current-year">2018</span> PT. Herbalife Indonesia 
+						</div>
+					</div>
+				</div>
+				<div class="modal" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h4 class="modal-title">Add New Candidate</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<!-- Modal body -->
+							<div class="modal-body" id="modal-body">
+								Modal body..
+							</div>
+
+							<!-- Modal footer -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-success" data-dismiss="modal">Save</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</body>
+			<script>
+					$(document).ready(function() {
+							$('#myModal').on('show.bs.modal', function (e) {
+								var url = "add.html";			
+								$(this).find('.modal-body').load(url);
+							});
+							$('#details').click(function() {
+								  window.location="detail.html";
+							})
+							$('#example').DataTable({
+								"dom": 'Bfrtip',
+								"responsive": true,
+								"columnDefs": [
+									{ responsivePriority: 1, targets: 0 },
+									{ responsivePriority: 2, targets: 3 },
+									{ responsivePriority: 3, targets: 4 },
+									{ responsivePriority: 4, targets: 2 },
+									{ responsivePriority: 5, targets: 3 }
+								],
+								"paging": true,
+								buttons: [
+									{
+										text: 'Add Candidate',
+										action: function ( e, dt, node, config ) {
+											  $('#myModal').modal({show:true});
+										}
+									}
+								]
+							});
+					});
+			</script>
+		</html>

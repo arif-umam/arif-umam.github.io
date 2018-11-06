@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	</head>
+	<body >			
+		<div class="container">
+			<input type="text" id="dayName" />
+			<button id="exe">Check</button>	
+		</div>
+	</div>
+</body>
+<script>
+		function() CheckDate{		
+				var days = ["senin", "selasa","rabu", "kamis", "jumat"];
+			var i;
+			var strName = $("#dayName").val();
+			for(i=0;i< days.length;i++)
+			{	
+				 if(strName.search(days[i]) > 0) 
+				 { 
+					 var x =getDate(days[i]); 
+					 alert(x); 
+					 break;
+				 } 
+			}
+	     }	
+		 function getDate(sDay)
+		 {
+			var d = sDay;
+			var x = 0;
+			if (d === "sabtu") { 
+				var x = 6;
+			};
+			if (d === "minggu") { 
+				var x = 0;
+			};
+			if (d === "senin") { 
+				var x = 1;
+			};
+			if (d === "selasa") { 
+				var x = 2;
+			};
+			if (d === "rabu") { 
+				var x = 3;
+			};
+			if (d === "kamis") { 
+				var x = 4;
+			};
+			if (d === "jumat") { 
+				var x = 5;
+			};
+			var b = new Date();
+			var n = 7-b.getDay();
+			var c = n + x;
+			var newDate = new Date();
+			newDate.setDate(b.getDate() + c);
+			return newDate;
+		}
+</script>
+</html>
+
